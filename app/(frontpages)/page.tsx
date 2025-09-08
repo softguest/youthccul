@@ -74,7 +74,7 @@ const Home= () => {
                 <span className="bg-gradient-to-r from-primary to-green-500 bg-clip-text text-transparent"> Microfinance</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                YOUTHCCUL is more than a financial institution – we`&apos;`re a movement dedicated to unlocking the entrepreneurial potential of African youth. Starting 2025, we will be providing accessible microfinance solutions that transform dreams into thriving businesses across the globe.
+                YOUTHCCUL is more than a financial institution – we&apos;re a movement dedicated to unlocking the entrepreneurial potential of African youth. Starting 2025, we will be providing accessible microfinance solutions that transform dreams into thriving businesses across the globe.
               </p>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 {stats.map((stat, index) => (
@@ -200,7 +200,7 @@ const Home= () => {
             Join YOUTHCCUL and Build Your Future Today
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Don`&apos;`t let limited access to capital hold back your entrepreneurial dreams. Join thousands of successful African entrepreneurs who have transformed their communities through our loans, savings and training programs.
+            Don&apos;t let limited access to capital hold back your entrepreneurial dreams. Join thousands of successful African entrepreneurs who have transformed their communities through our loans, savings and training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link href="/contact" className="bg-background text-primary px-8 py-4 rounded-lg font-semibold hover:bg-background/90 transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">

@@ -55,7 +55,7 @@ const ContactPage = () => {
         <div className="container mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-500/100 to-yellow-300/100 bg-clip-text text-transparent mb-6">
-              Let`&apos;`s Build Africa`&apos;`s Future Together
+              Let&apos;s Build Africa&apos;s Future Together
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Ready to start your entrepreneurial journey? Get in touch with our team and discover how YOUTHCCUL can help you achieve your business goals.
@@ -165,7 +165,7 @@ const ContactPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Visit Our Office</h2>
             <p className="text-muted-foreground">
-              Located in the heart of Bamenda, we`&apos;`re easily accessible to serve you better
+              Located in the heart of Bamenda, we&apos;re easily accessible to serve you better
             </p>
           </div>
           
@@ -190,7 +190,7 @@ const ContactPage = () => {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Future?</h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-            Don`&apos;`t wait for opportunities – create them. Join the YOUTHCCUL family and become part of Africa`&apos;`s entrepreneurial revolution.
+            Don&apos;t wait for opportunities – create them. Join the YOUTHCCUL family and become part of Africa&apos;s entrepreneurial revolution.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-background text-primary px-8 py-4 rounded-lg font-semibold hover:bg-background/90 transition-all duration-300 hover:scale-105">
