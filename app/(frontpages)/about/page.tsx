@@ -96,7 +96,7 @@ const AboutPage = () => {
               <h2 className="text-4xl font-bold text-foreground mb-6">Our Story</h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2025 in Bamenda, Cameroon, YOUTHCCUL emerged from a simple yet powerful idea: young Africans shouldn't be limited by lack of access to capital. Our founders, themselves young entrepreneurs, experienced firsthand the challenges of securing funding for innovative business ideas.
+                  Founded in 2025 in Bamenda, Cameroon, YOUTHCCUL emerged from a simple yet powerful idea: young Africans shouldn`&apos;`t be limited by lack of access to capital. Our founders, themselves young entrepreneurs, experienced firsthand the challenges of securing funding for innovative business ideas.
                 </p>
                 <p>
                   we are starting in 2025 as a  cooperative credit union and will grow into a continent-wide movement, supporting over 10,000 young entrepreneurs across 15 communities. We will disburse over $500k  in microloans, creating jobs for more than 100 people.

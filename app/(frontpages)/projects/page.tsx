@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
-import { Sprout, GraduationCap, ShoppingCart, Smartphone, Users, TrendingUp } from 'lucide-react';
+import { Sprout, GraduationCap, ShoppingCart, Users, TrendingUp } from 'lucide-react';
 
 const ProjectPage = () => {
   const projects = [

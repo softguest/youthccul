@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
-import { CreditCard, PiggyBank, Users, BookOpen, TrendingUp, Shield, DollarSign, Currency, LucideBanknote } from 'lucide-react';
+import { PiggyBank, Users, BookOpen, TrendingUp, Shield, LucideBanknote } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -48,29 +48,29 @@ const Services = () => {
     },
   ];
 
-  const loanProducts = [
-    {
-      name: 'Starter Loan',
-      amount: '$500 - $2,000',
-      term: '6-12 months',
-      rate: '8-12% annually',
-      target: 'New entrepreneurs',
-    },
-    {
-      name: 'Growth Loan',
-      amount: '$2,000 - $10,000',
-      term: '12-24 months',
-      rate: '10-15% annually',
-      target: 'Existing businesses',
-    },
-    {
-      name: 'Scale Loan',
-      amount: '$10,000 - $50,000',
-      term: '24-48 months',
-      rate: '12-18% annually',
-      target: 'Established businesses',
-    },
-  ];
+  // const loanProducts = [
+  //   {
+  //     name: 'Starter Loan',
+  //     amount: '$500 - $2,000',
+  //     term: '6-12 months',
+  //     rate: '8-12% annually',
+  //     target: 'New entrepreneurs',
+  //   },
+  //   {
+  //     name: 'Growth Loan',
+  //     amount: '$2,000 - $10,000',
+  //     term: '12-24 months',
+  //     rate: '10-15% annually',
+  //     target: 'Existing businesses',
+  //   },
+  //   {
+  //     name: 'Scale Loan',
+  //     amount: '$10,000 - $50,000',
+  //     term: '24-48 months',
+  //     rate: '12-18% annually',
+  //     target: 'Established businesses',
+  //   },
+  // ];
 
   return (
     <div className="min-h-screen bg-background">
