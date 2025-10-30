@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
+import OtherHeader from '@/components/OtherHeader';
 import { Sprout, GraduationCap, ShoppingCart, Users, TrendingUp } from 'lucide-react';
 
 const ProjectPage = () => {
@@ -78,18 +79,10 @@ const ProjectPage = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-orange-500/30 to-yellow-300/60">
-        <div className="container mx-auto px-6">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-500/100 to-yellow-300/100 bg-clip-text text-transparent mb-6">
-              Transforming Communities
-            </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Discover the impact we are going to make across Communities through strategic investments in youth-led initiatives that drive economic growth and social transformation.
-            </p>
-          </div>
-        </div>
-      </section>
+      <OtherHeader
+        title="Transforming Communities"
+        description="Discover the impact we are going to make across communities through strategic investments in youth-led initiatives that drive economic growth and social transformation."
+      />
 
       {/* Stats Overview */}
       <section className="py-16 bg-muted/30">

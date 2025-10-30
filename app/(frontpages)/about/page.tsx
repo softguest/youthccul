@@ -5,6 +5,7 @@ import { Users, Target, Heart, Globe, HandGrab, Handshake } from 'lucide-react';
 import { Span } from 'next/dist/trace';
 
 import { motion } from "framer-motion";
+import OtherHeader from '@/components/OtherHeader';
 
 const valuesSet = [
   {
@@ -75,18 +76,10 @@ const AboutPage = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-orange-500/30 to-yellow-300/60">
-        <div className="container mx-auto px-6">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-500/100 to-yellow-300/100 bg-clip-text text-transparent mb-8">
-              Empowering The Future
-            </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              YOUTHCCUL was born from a vision to transform the economy landscape by empowering young entrepreneurs with accessible microfinance solutions.
-            </p>
-          </div>
-        </div>
-      </section>
+      <OtherHeader
+        title="Empowering The Future"
+        description="YOUTHCCUL was born from a vision to transform the economy landscape by empowering young entrepreneurs with accessible microfinance solutions."
+      />
 
       {/* Story Section */}
       <section className="py-20">

@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer';
 import Navigation from '@/components/Navigation';
+import OtherHeader from '@/components/OtherHeader';
 import { PiggyBank, Users, BookOpen, TrendingUp, Shield, LucideBanknote } from 'lucide-react';
 
 const Services = () => {
@@ -77,18 +78,10 @@ const Services = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-r from-orange-500/30 to-yellow-300/60">
-        <div className="container mx-auto px-6">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-500/100 to-yellow-300/100 bg-clip-text text-transparent mb-6">
-              Financial Solutions for African Youth
-            </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Comprehensive financial services designed to empower young African entrepreneurs at every stage of their business journey.
-            </p>
-          </div>
-        </div>
-      </section>
+        <OtherHeader
+          title="Financial Solutions for African Youth"
+          description="Comprehensive financial services designed to empower young African entrepreneurs at every stage of their business journey."
+        />
 
       {/* Services Grid */}
       <section className="py-20">
