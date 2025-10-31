@@ -196,7 +196,7 @@ const Home= () => {
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-green-800/100 via-slate-700/100 to-yellow-500/100 text-primary-foreground community-pattern">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 via-blue-200 to-purple-100 drop-shadow-lg mb-6 leading-tight">
             Join YOUTHCCUL and Build Your Future Today
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-4xl mx-auto leading-relaxed">

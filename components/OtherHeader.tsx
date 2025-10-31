@@ -12,7 +12,7 @@ const OtherHeader: React.FC<HeroSectionProps> = ({ title, description }) => {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent blur-3xl opacity-30 pointer-events-none"></div>
         <div className="container mx-auto px-6">
             <div className="backdrop-blur-md bg-white/5 border border-white/10 rounded-3xl p-12 shadow-xl max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow-lg mb-6">
+            <h1 className="text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow-lg mb-6">
                 {title}
             </h1>
             <p className="text-lg md:text-xl text-white/80 leading-relaxed">

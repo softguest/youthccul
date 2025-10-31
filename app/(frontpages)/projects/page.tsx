@@ -123,7 +123,7 @@ const ProjectPage = () => {
                         {project.status}
                       </span>
                     </div>
-                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                    <p className="text-muted-foreground font-bold mb-6 leading-relaxed">
                       {project.description}
                     </p>
                     <div className="grid md:grid-cols-2 gap-4">
