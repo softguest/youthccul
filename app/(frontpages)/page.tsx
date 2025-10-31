@@ -74,7 +74,7 @@ const Home= () => {
                 <span className="bg-gradient-to-r from-primary to-green-500 bg-clip-text text-transparent"> Microfinance</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                YOUTHCCUL is more than a financial institution – we&apos;re a movement dedicated to unlocking the entrepreneurial potential of community youth. Starting 2025, we will be providing accessible microfinance solutions that transform dreams into thriving businesses across the globe.
+                YOUTHCCUL is more than a financial institution – we&apos;re a movement dedicated to unlocking the entrepreneurial potential of community youth. Starting 2025, we are providing accessible microfinance solutions that transform dreams into thriving businesses across the globe.
               </p>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 {stats.map((stat, index) => (

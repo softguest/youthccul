@@ -114,7 +114,7 @@ const HeroSlider = () => {
     //     ))}
     //   </div>
     // </div>
-    <div className="relative h-[85vh] md:h-screen overflow-hidden">
+    <div className="relative h-[100vh] md:h-[85vh] md:h-screen overflow-hidden">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -136,15 +136,15 @@ const HeroSlider = () => {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, ease: "easeOut" }}
-                  className="backdrop-blur-md bg-white/5 border border-white/10 rounded-3xl p-10 md:p-12 shadow-xl max-w-2xl"
+                  className="backdrop-blur-md bg-white/5 border border-white/10 rounded-3xl p-10 md:p-12 mt-2 md:mt-0 shadow-xl max-w-2xl"
                 >
-                  <span className="bg-gradient-to-r from-yellow-300 via-yellow-500 to-green-600 bg-clip-text text-transparent text-2xl font-bold tracking-wide">
+                  <span className="bg-gradient-to-r from-yellow-300 via-yellow-500 to-green-600 bg-clip-text text-transparent text-sm md:text-2xl font-bold tracking-wide">
                     YOUTHS INITIATIVE COOPERATIVE CREDIT UNION LTD
                   </span>
-                  <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow-lg mb-6 leading-tight">
+                  <h1 className="text-2xl md:text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow-lg md:mb-6 leading-tight">
                     {slide.title}
                   </h1>
-                  <p className="text-lg md:text-2xl text-white/80 leading-relaxed mb-8">
+                  <p className="md:text-lg md:text-2xl text-white/80 leading-relaxed mb-8">
                     {slide.description}
                   </p>
                   <div className="flex gap-4 flex-wrap">
