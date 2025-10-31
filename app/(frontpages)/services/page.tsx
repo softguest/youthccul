@@ -9,14 +9,14 @@ const Services = () => {
       icon: LucideBanknote,
       title: 'Loans',
       description: 'We provide Short and Long term loans from $50 upward, designed specifically for young entrepreneurs starting or scaling their businesses.',
-      features: ['Competitive interest rates', 'Flexible repayment terms', 'Online Loan Application', 'Quick approval process'],
+      features: ['loan interest rate are minimal from 1% to 1.4%','interest on overdraft minimal  2.5% to 3.5%','Competitive interest rates', 'Flexible repayment terms', 'Online Loan Application', 'Quick approval process'],
       color: 'from-slate-500/100 to-slate-800/100',
     },
     {
       icon: PiggyBank,
       title: 'Savings & Deposite Accounts',
       description: 'Build your financial future with our high-yield savings accounts and join cooperative groups for collective economic empowerment.',
-      features: ['High interest rates on savings', 'Mobile banking access','Low deposite charge','Group savings programs', 'Financial planning tools','Daily Savings'],
+      features: ['Interest on savings 6.6%','High interest rates on savings', 'Mobile banking access','Low deposite charge','Group savings programs', 'Financial planning tools','Daily Savings'],
       color: 'from-green-500/100 to-green-800/100',
     },
     {
@@ -79,8 +79,8 @@ const Services = () => {
       
       {/* Hero Section */}
         <OtherHeader
-          title="Financial Solutions for African Youth"
-          description="Comprehensive financial services designed to empower young African entrepreneurs at every stage of their business journey."
+          title="Financial Solutions for Youths"
+          description="Comprehensive financial services designed to empower young entrepreneurs at every stage of their business journey."
         />
 
       {/* Services Grid */}

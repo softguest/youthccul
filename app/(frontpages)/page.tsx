@@ -20,7 +20,7 @@ const Home= () => {
       location: 'Funding',
       impact: '300 youths to empower',
       amount: '$150k to fund',
-      description: 'Supporting youth-led businesses across East Africa',
+      description: 'Supporting youth-led businesses across communities',
       color:'bg-gradient-to-r from-yellow-300/100 via-yellow-500/100 to-yellow-600/100'
     },
     {
@@ -28,7 +28,7 @@ const Home= () => {
       location: 'Funding',
       impact: '50 startups to fund',
       amount: '$125k to fund',
-      description: 'Building the next generation of African tech companies',
+      description: 'Building the next generation of community tech companies',
       color: 'bg-gradient-to-r from-orange-300/100 via-orange-500/100 to-orange-600/100'
     },
     {
@@ -62,7 +62,7 @@ const Home= () => {
             <div className="relative">
               <img
                 src='/img/picture01.jpg'
-                alt="Happy African customers celebrating success"
+                alt="Happy Community customers celebrating success"
                 className="rou, empowering thousands nded-2xl shadow-deep w-full h-[500px] object-cover"
               />
               <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-full animate-float" />
@@ -70,11 +70,11 @@ const Home= () => {
             </div>
             <div className="fade-up">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Empowering African Youths Through
+                Empowering Community Youths Through
                 <span className="bg-gradient-to-r from-primary to-green-500 bg-clip-text text-transparent"> Microfinance</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                YOUTHCCUL is more than a financial institution – we&apos;re a movement dedicated to unlocking the entrepreneurial potential of African youth. Starting 2025, we will be providing accessible microfinance solutions that transform dreams into thriving businesses across the globe.
+                YOUTHCCUL is more than a financial institution – we&apos;re a movement dedicated to unlocking the entrepreneurial potential of community youth. Starting 2025, we will be providing accessible microfinance solutions that transform dreams into thriving businesses across the globe.
               </p>
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 {stats.map((stat, index) => (
@@ -194,13 +194,13 @@ const Home= () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-green-800/100 via-slate-700/100 to-yellow-500/100 text-primary-foreground african-pattern">
+      <section className="py-20 bg-gradient-to-r from-green-800/100 via-slate-700/100 to-yellow-500/100 text-primary-foreground community-pattern">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Join YOUTHCCUL and Build Your Future Today
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Don&apos;t let limited access to capital hold back your entrepreneurial dreams. Join thousands of successful African entrepreneurs who have transformed their communities through our loans, savings and training programs.
+            Don&apos;t let limited access to capital hold back your entrepreneurial dreams. Join thousands of successful community entrepreneurs who have transformed their communities through our loans, savings and training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link href="/contact" className="bg-background text-primary px-8 py-4 rounded-lg font-semibold hover:bg-background/90 transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">

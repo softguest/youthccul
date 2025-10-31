@@ -51,10 +51,10 @@ const Navigation = () => {
               </Link>
             ))}
             <Link
-              href="/contact"
+              href="https://youthccul.balaanz.com/login"
               className="text-white font-bold bg-gradient-to-r from-yellow-500 to-yellow-300 py-3 px-6 rounded-md"
             >
-              Get Started
+              Online Banking
             </Link>
           </div>
 
@@ -84,11 +84,11 @@ const Navigation = () => {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="https://youthccul.balaanz.com/login"
                 onClick={() => setIsOpen(false)}
                 className="btn-accent self-start"
               >
-                Get Started
+                Online Banking
               </Link>
             </div>
           </div>

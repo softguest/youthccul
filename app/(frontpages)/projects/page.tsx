@@ -23,15 +23,6 @@ const ProjectPage = () => {
       status: 'in process',
       category: 'Business',
     },
-    // {
-    //   icon: Smartphone,
-    //   title: 'Tech Innovation Hub',
-    //   description: 'Funding early-stage tech startups and providing mentorship to build the next generation of African tech companies.',
-    //   impact: '50 startups, 800 tech jobs',
-    //   amount: '$5M funded',
-    //   status: 'Active',
-    //   category: 'Technology',
-    // },
     {
       icon: GraduationCap,
       title: 'Education Support Program ',
@@ -89,20 +80,20 @@ const ProjectPage = () => {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="p-6">
-              <div className="text-3xl font-bold text-primary mb-2">30+</div>
-              <div className="text-muted-foreground">Projected Projects</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">30+</div>
+              <div className="text-gray-700/80 text-lg">Projected Projects</div>
             </div>
             <div className="p-6">
-              <div className="text-3xl font-bold mb-2">15</div>
-              <div className="text-muted-foreground">Communities</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">15</div>
+              <div className="text-gray-700/80 text-lg">Communities</div>
             </div>
             <div className="p-6">
-              <div className="text-3xl font-bold text-sunset mb-2">$500k</div>
-              <div className="text-muted-foreground">Total Investment</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">$500k</div>
+              <div className="text-gray-700/80 text-lg">Total Investment</div>
             </div>
             <div className="p-6">
-              <div className="text-3xl font-bold text-ocean mb-2">100,000+</div>
-              <div className="text-muted-foreground">Lives To Impact</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">100,000+</div>
+              <div className="text-gray-700/80 text-lg">Lives To Impact</div>
             </div>
           </div>
         </div>

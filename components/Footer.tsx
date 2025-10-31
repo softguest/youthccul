@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">YOUTHCCUL</h2>
           <p className="text-gray-400 leading-relaxed">
-            Youthccul is committed to empowering African communities by 
+            Youthccul is committed to empowering communities by 
             providing accessible microfinance solutions that help individuals 
             build sustainable businesses and achieve economic independence.
           </p>

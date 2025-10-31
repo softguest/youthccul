@@ -57,7 +57,7 @@ const AboutPage = () => {
     {
       icon: Target,
       title: 'Youth Empowerment',
-      description: 'Our focus is on empowering young Africans with the tools and capital they need to build sustainable businesses.',
+      description: 'Our focus is on empowering youths with the tools and capital they need to build sustainable businesses.',
     },
     {
       icon: Heart,
@@ -86,10 +86,10 @@ const AboutPage = () => {
         <div className="container mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="fade-up">
-              <h2 className="text-4xl font-bold text-foreground mb-6">Our Story</h2>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-green-800 to-slate-800 drop-shadow-lg mb-6">Our Story</h2>
               <div className="space-y-6 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2025 in Bamenda, Cameroon, YOUTHCCUL emerged from a simple yet powerful idea: young Africans shouldn&apos;t be limited by lack of access to capital. Our founders, themselves young entrepreneurs, experienced firsthand the challenges of securing funding for innovative business ideas.
+                  Founded in 2025 in Bamenda, Cameroon, YOUTHCCUL emerged from a simple yet powerful idea: youths shouldn&apos;t be limited by lack of access to capital. Our founders, themselves young entrepreneurs, experienced firsthand the challenges of securing funding for innovative business ideas.
                 </p>
                 <p>
                   we are starting in 2025 as a  cooperative credit union and will grow into a continent-wide movement, supporting over 10,000 young entrepreneurs across 15 communities. We will disburse over $500k  in microloans, creating jobs for more than 100 people.
@@ -102,7 +102,7 @@ const AboutPage = () => {
             <div className="relative">
               <img
                 src='/img/team01.jpg'
-                alt="African community celebrating success"
+                alt="communities celebrating success"
                 className="rounded-2xl shadow-deep w-full h-[400px] object-cover"
               />
               <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-yellow-500/100 to-orange-500/100 rounded-full animate-float" />
@@ -173,26 +173,37 @@ const AboutPage = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-r from-green-500/70 to-green-800/100 text-primary-foreground">
+      <section className="relative py-24 bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white/10 via-transparent to-transparent blur-3xl opacity-30 pointer-events-none" />
+
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">10,000+</div>
-              <div className="text-primary-foreground/80">Young Entrepreneurs Funded</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">$500K+</div>
-              <div className="text-primary-foreground/80">Total Loans Disbursed</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">15</div>
-              <div className="text-primary-foreground/80">African Commutities</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">100+</div>
-              <div className="text-primary-foreground/80">Jobs Created</div>
-            </div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="grid md:grid-cols-4 gap-8 text-center backdrop-blur-md bg-white/5 border border-white/10 rounded-3xl p-10 shadow-xl"
+          >
+            {[
+              { value: "10,000+", label: "Young Entrepreneurs Funded" },
+              { value: "$500K+", label: "Total Loans Disbursed" },
+              { value: "15", label: "Communities" },
+              { value: "100+", label: "Jobs Created" },
+            ].map((stat, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.2, duration: 0.6 }}
+                viewport={{ once: true }}
+              >
+                <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">
+                  {stat.value}
+                </div>
+                <div className="text-white/80 text-lg">{stat.label}</div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
 
