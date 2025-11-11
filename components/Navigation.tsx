@@ -26,7 +26,8 @@ const Navigation = () => {
           {/* Logo */}
           <Link href ="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-r from-blue-900/90 via-black/50 to-green-900/70 rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">Y</span>
+              {/* <span className="text-primary-foreground font-bold text-lg">Y</span> */}
+              <img src="/img/logo.jpeg" alt="logo" width={50} height={50}/>
             </div>
             <div className="hidden sm:block">
               <span className="text-xl font-bold bg-gradient-to-r from-green-500 to-yellow-500 bg-clip-text text-transparent">
