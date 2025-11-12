@@ -154,7 +154,7 @@ const ContactPage = () => {
 
       {/* Map Section */}
       <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-6">Youthccul is committed to empowering African communities by providing accessible microfinance solutions that help individuals build sustainable businesses and achieve economic independence.
+        <div className="container text-foreground text-center mx-auto px-6 mb-6">Youthccul is committed to empowering African communities by providing accessible microfinance solutions<br/> that help individuals build sustainable businesses and achieve economic independence.
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Visit Our Office</h2>
             <p className="text-muted-foreground">
@@ -163,16 +163,34 @@ const ContactPage = () => {
           </div>
           
           {/* Google Maps Placeholder */}
-          <div className="relative h-96 bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-16 h-16 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold text-foreground mb-2">YOUTHCCUL Headquarters</h3>
-                <p className="text-muted-foreground">Commercial Avenue, Bamenda, Cameroon</p>
-                <button className="mt-4 btn-accent">
-                  View on Google Maps
-                </button>
+          <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps?q=5.955632,10.147481&z=17&output=embed"
+              className="absolute inset-0 w-full h-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="YOUTHCCUL Headquarters - Food Market, Bamenda"
+            />
+
+            {/* Floating info badge */}
+            <div className="absolute top-4 left-4 bg-background/80 rounded-md p-3 backdrop-blur-sm flex items-center gap-3">
+              <MapPin className="w-6 h-6 text-primary" />
+              <div>
+                <div className="text-sm font-semibold text-foreground">YOUTHCCUL Headquarters</div>
+                <div className="text-xs text-muted-foreground">Food Market, Bamenda</div>
               </div>
+            </div>
+
+            {/* Open in Google Maps button */}
+            <div className="absolute bottom-4 right-4">
+              <a
+                href="https://www.google.com/maps?q=5.955632,10.147481"
+                target="_blank"
+                rel="noreferrer"
+                className="btn-accent"
+              >
+                Open in Google Maps
+              </a>
             </div>
           </div>
         </div>
