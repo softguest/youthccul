@@ -59,6 +59,40 @@ const Home= () => {
         />
         <meta name="keywords" content="YouthCCUL, micro credit union, youth finance, Cameroon, YOUTHS INITIATIVE COOPERATIVE CREDIT UNION LTD" />
         <meta name="author" content="YouthCCUL" />
+        {/* Schema.org structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FinancialService",
+              "name": "YouthCCUL",
+              "url": "https://www.youthccul.com",
+              "logo": "https://www.youthccul.com/public/img/logo.jpeg", // replace with your actual logo URL
+              "description":
+                "YouthCCUL is a micro credit union empowering youth with financial services and community support.",
+              // "founder": {
+              //   "@type": "Person",
+              //   "name": "Boris"
+              // },
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Bamenda",
+                "addressRegion": "Northwest",
+                "addressCountry": "Cameroon"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Customer Service",
+                "phone": "+237 683 165 717 / +90 533 881 64 44"
+              },
+              "sameAs": [
+                "https://www.facebook.com/youthccul",
+                "https://www.twitter.com/youthccul"
+              ]
+            }),
+          }}
+        />
       </Head>
       <Navigation />
       
