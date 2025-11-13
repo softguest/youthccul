@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Navigation from '@/components/Navigation';
 import HeroSlider from '@/components/HeroSlider';
 import { ArrowRight, Users, TrendingUp, Globe, Heart, Phone, SaveAllIcon } from 'lucide-react';
@@ -50,6 +51,15 @@ const Home= () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Head>
+        <title>YouthCCUL – Micro Credit Union for Youth</title>
+        <meta
+          name="description"
+          content="YouthCCUL is a micro credit union empowering youth with financial services and community support."
+        />
+        <meta name="keywords" content="YouthCCUL, micro credit union, youth finance, Cameroon, YOUTHS INITIATIVE COOPERATIVE CREDIT UNION LTD" />
+        <meta name="author" content="YouthCCUL" />
+      </Head>
       <Navigation />
       
       {/* Hero Slider */}
