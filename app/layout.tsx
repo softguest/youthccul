@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Youthccul",
-  description: "YOUTHS INITIATIVE COOPERATIVE CREDIT UNION LTD",
+  description: "'Youthccul' YOUTHS INITIATIVE COOPERATIVE CREDIT UNION LTD",
 };
 
 export default function RootLayout({
