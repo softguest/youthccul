@@ -22,8 +22,13 @@ const ContactPage = () => {
   const contactInfo = [
     {
       icon: MapPin,
-      title: 'Headquarters',
-      details: ['YOUTHCCUL Building', 'Commercial Avenue, Bamenda', 'Northwest Region, Cameroon'],
+      title: 'Branches',
+      details: ['YOUTHCCUL Building', 'Foot Market, Bamenda', 'Northwest Region, Cameroon'],
+    },
+    {
+      icon: MapPin,
+      title: 'Branches',
+      details: ['YOUTHCCUL Building', 'Ebonji, Tombe', 'Southwest Region, Cameroon'],
     },
     {
       icon: Phone,

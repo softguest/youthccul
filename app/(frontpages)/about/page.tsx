@@ -101,7 +101,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img
-                src='/img/team01.jpg'
+                src='/img/teamebonji.jpg'
                 alt="communities celebrating success"
                 className="rounded-2xl shadow-deep w-full h-[400px] object-cover"
               />
