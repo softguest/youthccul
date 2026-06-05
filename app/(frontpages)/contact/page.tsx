@@ -28,7 +28,7 @@ const ContactPage = () => {
     {
       icon: MapPin,
       title: 'Branches',
-      details: ['YOUTHCCUL Building', 'Ebonji, Tombe', 'Southwest Region, Cameroon'],
+      details: ['YOUTHCCUL Building', 'Ebonji Community', 'Southwest Region, Cameroon'],
     },
     {
       icon: Phone,

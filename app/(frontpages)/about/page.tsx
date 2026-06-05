@@ -101,7 +101,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img
-                src='/img/teamebonji.jpg'
+                src='/img/teambamenda.jpg'
                 alt="communities celebrating success"
                 className="rounded-2xl shadow-deep w-full h-[400px] object-cover"
               />
@@ -127,6 +127,32 @@ const AboutPage = () => {
               <p className="text-muted-foreground leading-relaxed">
                 Our vision is to be the leading Credit union in Cameroon by providing rapid and accessible financial services to Communities, while leading as a morally conscious Financial Institution. 
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Story Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="fade-up">
+              <img
+                src='/img/managerinfarm.jpg'
+                alt="communities celebrating success"
+                className="rounded-2xl shadow-deep w-full h-[400px] object-cover"
+              />
+              {/* <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-yellow-500/100 to-orange-500/100 rounded-full animate-float" />
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-gradient-to-br from-green-700/100 to-slate-600/100 rounded-full animate-float" style={{ animationDelay: '1s' }} /> */}
+            </div>
+            <div className="relative">
+              <img
+                src='/img/teamebonji.jpeg'
+                alt="communities celebrating success"
+                className="rounded-2xl shadow-deep w-full h-[400px] object-cover"
+              />
+              {/* <div className="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-yellow-500/100 to-orange-500/100 rounded-full animate-float" />
+              <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-gradient-to-br from-green-700/100 to-slate-600/100 rounded-full animate-float" style={{ animationDelay: '1s' }} /> */}
             </div>
           </div>
         </div>

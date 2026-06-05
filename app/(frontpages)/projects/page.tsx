@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer';
+import Gallery from '@/components/Gallery';
 import Navigation from '@/components/Navigation';
 import OtherHeader from '@/components/OtherHeader';
 import { Sprout, GraduationCap, ShoppingCart, Users, TrendingUp } from 'lucide-react';
@@ -96,6 +97,12 @@ const ProjectPage = () => {
               <div className="text-gray-700/80 text-lg">Lives To Impact</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="">
+        <div className="container mx-auto">
+          <Gallery />
         </div>
       </section>
 
