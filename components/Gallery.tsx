@@ -13,8 +13,10 @@ const images = [
   { src: "/img/schoolebonji.jpg", title: "Image 2" },
   { src: "/img/schoolvisitebda.jpg", title: "Image 7" },
   { src: "/img/coacoa.jpeg", title: "Image 8" },
-//   { src: "/img/9.jpg", title: "Image 9" },
-//   { src: "/img/10.jpg", title: "Image 10" },
+  { src: "/img/reception.jpg", title: "Image 9" },
+  { src: "/img/next.jpg", title: "Image 10" },
+  { src: "/img/ereception.jpg", title: "Image 10" },
+  { src: "/img/attendingtwo.jpg", title: "Image 9" },
 ];
 
 export default function Gallery() {

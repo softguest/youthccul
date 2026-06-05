@@ -2,6 +2,7 @@ import Footer from '@/components/Footer';
 import Gallery from '@/components/Gallery';
 import Navigation from '@/components/Navigation';
 import OtherHeader from '@/components/OtherHeader';
+import VideoSection from '@/components/videos';
 import { Sprout, GraduationCap, ShoppingCart, Users, TrendingUp } from 'lucide-react';
 
 const ProjectPage = () => {
@@ -77,7 +78,7 @@ const ProjectPage = () => {
       />
 
       {/* Stats Overview */}
-      <section className="py-16 bg-muted/30">
+      {/* <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="p-6">
@@ -98,9 +99,15 @@ const ProjectPage = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className="bg-slate-950">
+        <div className="container mx-auto">
+          <VideoSection />
+        </div>
       </section>
 
-      <section className="">
+      <section className="bg-slate-100">
         <div className="container mx-auto">
           <Gallery />
         </div>
