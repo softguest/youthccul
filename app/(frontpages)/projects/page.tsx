@@ -78,29 +78,6 @@ const ProjectPage = () => {
       />
 
       {/* Stats Overview */}
-      {/* <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="p-6">
-              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">30+</div>
-              <div className="text-gray-700/80 text-lg">Projected Projects</div>
-            </div>
-            <div className="p-6">
-              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">15</div>
-              <div className="text-gray-700/80 text-lg">Communities</div>
-            </div>
-            <div className="p-6">
-              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">$500k</div>
-              <div className="text-gray-700/80 text-lg">Total Investment</div>
-            </div>
-            <div className="p-6">
-              <div className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 drop-shadow mb-2">100,000+</div>
-              <div className="text-gray-700/80 text-lg">Lives To Impact</div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className="bg-slate-950">
         <div className="container mx-auto">
           <VideoSection />
