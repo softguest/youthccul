@@ -16,7 +16,7 @@ const Services = () => {
       icon: PiggyBank,
       title: 'Savings & Deposite Accounts',
       description: 'Build your financial future with our high-yield savings accounts and join cooperative groups for collective economic empowerment.',
-      features: ['Interest on savings 6.6%','High interest rates on savings', 'Mobile banking access','Low deposite charge','Group savings programs', 'Financial planning tools','Daily Savings'],
+      features: ['Interest on savings 6.5%','High interest rates on savings', 'Mobile banking access','Low deposite charge','Group savings programs', 'Financial planning tools','Daily Savings'],
       color: 'from-green-500/100 to-green-800/100',
     },
     {
@@ -36,7 +36,7 @@ const Services = () => {
     {
       icon: BookOpen,
       title: 'Term and Time Deposite',
-      description: 'Save guarding members deposite with the objective of receiving 7.5% to 10% interest rate anually',
+      description: 'Save guarding members deposite with the objective of receiving 7% to 8% interest rate anually with Minimal deposit for Term Deposit at 500,000frs reneweable one year.',
       features: [ 'Online and offline Banking', 'High Interest Rate', 'Flexible Deposite and Withdrawer Terms'],
       color: 'from-orange-500/100 to-orange-800/100',
     },
@@ -47,6 +47,14 @@ const Services = () => {
       features: ['Loan coverage', 'Saving Coverage', 'Cash coverage'],
       color: 'from-red-500/100 to-red-800/100',
     },
+    {
+      icon: TrendingUp,
+      title: 'Investment Option',
+      description: 'Investment shares is mininimum for 3years reneweable, annual interest rate ranges from 9% to 10%, minimum deposit is 3,000,000Fcfa.',
+      features: ['Loan coverage', 'Saving Coverage', 'Cash coverage'],
+      color: 'from-red-500/100 to-red-800/100',
+    },
+    
   ];
 
   // const loanProducts = [
